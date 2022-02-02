@@ -4,14 +4,12 @@ import "./AboutUs.css";
 import { images } from "../../constants";
 
 const AboutUs = () => (
-  <div
-    className='app__aboutus app__bg flex__center section__padding'
-  >
-    <div className='app__aboutus-overlay flex__center' >
+  <div className='app__aboutus app__bg flex__center section__padding'>
+    <div className='app__aboutus-overlay flex__center'>
       <img src={images.G} alt='g letter' />
     </div>
 
-    <div className='app__aboutus-content flex__center'     id='about'>
+    <div className='app__aboutus-content flex__center' id='about'>
       <div className='app__aboutus-content_about'>
         <h1 className='headtext__cormorant'>About us</h1>
         <img src={images.spoon} alt='about_aspoon' className='spoon__img' />
